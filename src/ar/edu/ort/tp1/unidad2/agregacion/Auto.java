@@ -19,6 +19,11 @@ public class Auto {
 		this.modelo = modelo;
 	}
 	
+	public void saludarPasajeros(){
+		for(int i = 0; i < pasajeros.size(); i++)
+			System.out.println("Bienvenido a bordo " + pasajeros.get(i).getNombre());
+	}
+	
 	public void agregarPasajero(Pasajero pasajero){
 		this.pasajeros.add(pasajero);
 	}

@@ -19,6 +19,7 @@ public class Test {
 		 * relación. Por ejemplo una misma mascota puede tener varios Dueños.
 		 */
 		fordFiesta.agregarPasajero(jose);
+		fordFiesta.saludarPasajeros();
 		
 		/*
 		 * Jose se baja del Auto.
